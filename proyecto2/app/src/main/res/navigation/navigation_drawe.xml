@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_drawe"
+    app:startDestination="@id/paraTiItem">
+
+    <fragment
+        android:id="@+id/buscadorItem"
+        android:name="com.jorgeafabro.vinotecapp.navitems.Buscador"
+        android:label="@string/pti"
+        tools:layout="@layout/fragment_buscador" />
+
+    <fragment
+        android:id="@+id/paraTiItem"
+        android:name="com.jorgeafabro.vinotecapp.navitems.ParaTi"
+        android:label="@string/buscador"
+        tools:layout="@layout/fragment_para_ti" />
+
+    <fragment
+        android:id="@+id/comprarItem"
+        android:name="com.jorgeafabro.vinotecapp.navitems.Comprar"
+        android:label="@string/comprar"
+        tools:layout="@layout/fragment_comprar" />
+
+    <fragment
+        android:id="@+id/cuentaItem"
+        android:name="com.jorgeafabro.vinotecapp.navitems.Cuenta"
+        android:label="@string/cuenta"
+        tools:layout="@layout/fragment_cuenta" />
+
+
+</navigation>

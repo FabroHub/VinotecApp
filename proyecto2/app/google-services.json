@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "330305899929",
+    "project_id": "vinotecapp2",
+    "storage_bucket": "vinotecapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330305899929:android:21b32cedc6bbff3aab9708",
+        "android_client_info": {
+          "package_name": "com.jorgeafabro.vinotecapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330305899929-7k27ijm4eqm2oamq9ash1mnj8gvlq47o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgGgptm7FrXOLn6G602r2Znk0VkyfEbLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330305899929-7k27ijm4eqm2oamq9ash1mnj8gvlq47o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

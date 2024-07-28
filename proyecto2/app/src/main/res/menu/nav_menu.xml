@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item android:id="@+id/paraTiItem"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/inicio"/>
+
+        <item android:id="@+id/buscadorItem"
+            android:icon="@drawable/baseline_search_24"
+            android:title="@string/buscador"/>
+    </group>
+
+    <group>
+        <item android:id="@+id/LinkedIn"
+            android:title="@string/LI"
+            android:icon="@drawable/baseline_build_circle_24"
+            android:iconTint="@color/white"
+            />
+    </group>
+
+    <group>
+        <item android:id="@+id/Twitch"
+            android:title="@string/twitch"
+            android:icon="@drawable/baseline_gamepad_24"
+            android:iconTint="@color/white"
+            />
+    </group>
+
+    <group>
+        <item android:id="@+id/YT"
+            android:title="@string/YT"
+            android:icon="@drawable/baseline_camera_roll_24"
+            android:iconTint="@color/white"
+            />
+    </group>
+
+    <group>
+        <item android:id="@+id/TikTok"
+            android:title="@string/TikTok"
+            android:icon="@drawable/baseline_edgesensor_high_24"
+            android:iconTint="@color/white"
+            />
+    </group>
+
+    <group>
+        <item android:id="@+id/Insta"
+            android:title="@string/Insta"
+            android:icon="@drawable/baseline_camera_alt_24"
+            android:iconTint="@color/white"
+            />
+    </group>
+
+    <group>
+        <item android:id="@+id/cerrarSesion"
+            android:title="@string/cerrar_sesi_n"
+            android:icon="@drawable/baseline_logout_24"
+            android:iconTint="@color/white"/>
+    </group>
+</menu>
